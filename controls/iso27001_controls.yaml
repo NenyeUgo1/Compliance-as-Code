@@ -1,0 +1,15 @@
+controls:
+  - id: ISO27001-A.9.2.1
+    name: User access management
+    requirement: "User access rights shall be approved and regularly reviewed."
+    check_script: "check_password_policy.py"
+
+  - id: ISO27001-A.9.3.1
+    name: Use of secret authentication information
+    requirement: "Secret authentication information shall be protected."
+    check_script: "check_password_policy.py"
+
+  - id: ISO27001-A.9.4.2
+    name: Secure log-on procedures
+    requirement: "Secure log-on procedures shall be implemented."
+    check_script: "check_mfa_enabled.py"
