@@ -1,6 +1,6 @@
 # Compliance-as-Code 
 
-A lightweight, practical example of how to express security and compliance controls as code.
+A practical example of how to express security and compliance controls as code.
 
 This project includes:
 - YAML definitions of ISO 27001 and NIST CSF controls
