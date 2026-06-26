@@ -1,0 +1,15 @@
+controls:
+  - id: NIST-PR.AC-1
+    name: Identities and credentials are issued
+    requirement: "Authorized users receive credentials managed through an identity system."
+    check_script: "check_password_policy.py"
+
+  - id: NIST-PR.AC-7
+    name: Users are authenticated
+    requirement: "Users, devices, and other assets are authenticated."
+    check_script: "check_mfa_enabled.py"
+
+  - id: NIST-PR.PT-1
+    name: Audit/log records are determined, documented, implemented
+    requirement: "Logging is enabled and monitored."
+    check_script: "check_logging_enabled.py"
