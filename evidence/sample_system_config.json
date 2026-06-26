@@ -1,0 +1,7 @@
+{
+  "password_min_length": 12,
+  "password_complexity_enabled": true,
+  "mfa_enabled": true,
+  "logging_enabled": true,
+  "log_retention_days": 365
+}
